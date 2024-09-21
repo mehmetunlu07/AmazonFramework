@@ -29,6 +29,7 @@ public class TestAmazon extends CommonMethods {
 		//4rd line from intellij
 		//5th change
 		//6th change
+		//7th change
 		sendTextEnter(amazon.searchBox, "qa testing for beginners");  // Step-2
 		click(amazon.book);  // Step-3
 		String expectedPrice=amazon.price.getText();  //Step-4
