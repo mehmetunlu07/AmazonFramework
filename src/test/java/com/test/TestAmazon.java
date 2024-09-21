@@ -23,6 +23,7 @@ public class TestAmazon extends CommonMethods {
 	public static void main(String[] args) {
 		
 		setUp();   // Step-1
+		//new line........
 		sendTextEnter(amazon.searchBox, "qa testing for beginners");  // Step-2
 		click(amazon.book);  // Step-3
 		String expectedPrice=amazon.price.getText();  //Step-4
